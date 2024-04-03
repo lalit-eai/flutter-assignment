@@ -10,14 +10,8 @@
 #### Watchlist screen:
 1. This is one of the core components on any trading platform.
 2. We'll give you a json with 30 stocks with their tokens as keys and values containing a bunch of other fields which would be completely suffient for this assignment and you would not require any additional data.
-3. This screen should have a searchbar and a list of the stocks which are added in the watchlist.
-   1. Initially the list should be empty and be populated by the user using the searchbar.
-   2. Once a stock is added in the watchist, the list item should contain the symbol of the stock and the LTP (Last Traded Price) and how to get the LTP is described below.
-4. Create a function to implement the search functionality
-   1. Make it closest to the real world scenario without using any external API (all the logic should be in your code).
-   2. Think about cases like user entering wrong spelling, searching using industry, company, symbol etc...
-   3. Upon clicking the search suggestion, the stock should be added in the watchlist.
-5. Join the given websocket to display the LTP of the stock on the watchlist. The websocket would be active most of the times, in case there's a downtime, it would be back up in 2 hours. The websocket has a rate limit of 1 message per second, just to be safe take it to be 1.5 sec per message.
+3. Display these stocks on the watchlist. It should contain the symbol and the LTP (Last traded price), the process of getting LTP is given below.
+4. Join the given websocket to display the LTP of the stock on the watchlist. The websocket would be active most of the times, in case there's a downtime, it would be back up in 2 hours. The websocket has a rate limit of 1 message per second, just to be safe take it to be 1.5 sec per message.
    1. Here's how you can subscribe and unsubscribe to an instrument's LTP:
    ```
     {
@@ -42,3 +36,7 @@
 4. Scalability
 5. UI/UX Sense
 6. Code structure and readability
+
+
+## Bonus Points
+1. Any additional features on the given base MVP, given that it doesn't require any additioanl data inputs or APIs.
