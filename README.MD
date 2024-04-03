@@ -5,11 +5,7 @@
 
 ## Task
 
-> Your task is to build the frontend of an MVP version of this trading app on Flutter which should include the following features.
-
-#### Login screen:
-   1. A username and password based login screen.
-   2. For the sake of simplicity, if the username == password, allow the user access to further screens.
+> Your task is to build the frontend of an MVP version of this trading app on Flutter which should include the following feature.
 
 #### Watchlist screen:
 1. This is one of the core components on any trading platform.
@@ -30,7 +26,7 @@
         "Tokens": [3, 7, 13, 17, 19, 22, 25]
     }
     {
-        "Task": "unsubscribe",
+        "Task": "unsubscribe"
         "Mode": "ltp",
         "Tokens": [3, 7]
     }
@@ -39,11 +35,6 @@
 6. Implement a delete from watchlist functionality upon left swipe of the specific stock.
    1. You're supposed to manage the unsubscriptions from websocket as well.
 
-#### Profile screen:
-1. There should be a bottom navbar which will enable the user to navigate between profile and watchlist.
-2. Additionally, there should be a swipe transition from profile page to watchlist page.
-3. Profile page can have static values containing basic details of the user like name, email etc...
-
 ## Parameters for evaluation
 1. Core functionality
 2. Efficiency
@@ -51,4 +42,3 @@
 4. Scalability
 5. UI/UX Sense
 6. Code structure and readability
-7. Future use cases (Include it in README)
