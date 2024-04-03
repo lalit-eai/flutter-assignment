@@ -17,7 +17,7 @@
    1. Make it closest to the real world scenario without using any external API (all the logic should be in your code).
    2. Think about cases like user entering wrong spelling, searching using industry, company, symbol etc...
    3. Upon clicking the search suggestion, the stock should be added in the watchlist.
-5. Join the given websocket to display the LTP of the stock on the watchlist. The websocket would be active most of the times, in case there's a downtime, it would be back up in 2 hours.
+5. Join the given websocket to display the LTP of the stock on the watchlist. The websocket would be active most of the times, in case there's a downtime, it would be back up in 2 hours. The websocket has a rate limit of 1 message per second, just to be safe take it to be 1.5 sec per message.
    1. Here's how you can subscribe and unsubscribe to an instrument's LTP:
    ```
     {
