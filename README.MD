@@ -9,7 +9,7 @@
 
 #### Watchlist screen:
 1. This is one of the core components on any trading platform.
-2. We'll give you a json with 30 stocks with their tokens and a bunch of other fields which would be completely suffient for this assignment and you would not require any additional data.
+2. We'll give you a json with 30 stocks with their tokens as keys and values containing a bunch of other fields which would be completely suffient for this assignment and you would not require any additional data.
 3. This screen should have a searchbar and a list of the stocks which are added in the watchlist.
    1. Initially the list should be empty and be populated by the user using the searchbar.
    2. Once a stock is added in the watchist, the list item should contain the ticker of the stock and the LTP (Last Traded Price) and how to get the LTP is described below.
