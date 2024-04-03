@@ -12,7 +12,7 @@
 2. We'll give you a json with 30 stocks with their tokens as keys and values containing a bunch of other fields which would be completely suffient for this assignment and you would not require any additional data.
 3. This screen should have a searchbar and a list of the stocks which are added in the watchlist.
    1. Initially the list should be empty and be populated by the user using the searchbar.
-   2. Once a stock is added in the watchist, the list item should contain the ticker of the stock and the LTP (Last Traded Price) and how to get the LTP is described below.
+   2. Once a stock is added in the watchist, the list item should contain the symbol of the stock and the LTP (Last Traded Price) and how to get the LTP is described below.
 4. Create a function to implement the search functionality
    1. Make it closest to the real world scenario without using any external API (all the logic should be in your code).
    2. Think about cases like user entering wrong spelling, searching using industry, company, symbol etc...
