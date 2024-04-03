@@ -39,4 +39,4 @@
 
 
 ## Bonus Points
-1. Any additional features on the given base MVP, given that it doesn't require any additioanl data inputs or APIs.
+1. Any additional features on the given base MVP, given that it doesn't require any additional data inputs or APIs.
